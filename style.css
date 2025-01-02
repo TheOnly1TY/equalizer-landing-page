@@ -15,7 +15,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    cursor: pointer;
     font-family: var(--body-font);
 }
 html{
@@ -83,7 +82,6 @@ span{
 }
 .main__image img{
     position: relative;
-
 }
 .main__price{
     display: flex;
@@ -98,6 +96,7 @@ span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .btn button{
     display: flex;
